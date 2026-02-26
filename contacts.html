@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | Parker's Cove Baptist Church</title>
+  <meta name="description" content="Contact information, service times, and location for Parker's Cove Baptist Church."/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    h1, h2, h3 { font-family: 'Playfair Display', serif; letter-spacing: -0.025em; }
+    .nav-link { transition: all 0.3s ease; }
+    .nav-link:hover { color: #0d9488 !important; transform: translateY(-1px); }
+    .active { color: #0d9488 !important; font-weight: 600; }
+  </style>
+</head>
+<body class="bg-stone-50 text-stone-800 antialiased">
+
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-stone-200 shadow-sm">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold text-teal-800">PCBC</a>
+      <div class="hidden md:flex space-x-10 text-sm font-medium uppercase tracking-wide">
+        <a href="index.html" class="nav-link text-stone-700 hover:text-teal-700">Home</a>
+        <a href="ministries.html" class="nav-link text-stone-700 hover:text-teal-700">Ministries</a>
+		  <a href="thecove.html" class="nav-link text-stone-700 active">Cove Academy</a>
+        <a href="beliefs.html" class="nav-link text-stone-700 hover:text-teal-700">Beliefs</a>
+        <a href="sermons.html" class="nav-link text-stone-700 hover:text-teal-700">Sermons</a>
+		<a href="bulletins.html" class="nav-link text-stone-700 hover:text-teal-700">Bulletin</a>
+        <a href="contact.html" class="nav-link text-stone-700 active">Contact</a>
+      </div>
+      <a href="contact.html" class="md:hidden bg-teal-700 text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-teal-800 transition">Join Us</a>
+    </div>
+  </nav>
+
+  <section class="pt-28 pb-20 px-6 md:px-12 bg-white">
+    <div class="max-w-5xl mx-auto">
+      <h1 class="text-5xl md:text-6xl font-bold text-teal-800 text-center mb-12">Connect With Us</h1>
+
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <h2 class="text-3xl font-bold text-teal-800 mb-6">Service Times</h2>
+          <div class="space-y-6 text-xl">
+            <p><strong>Coffee & Fellowship:</strong> 10:00 AM</p>
+            <p><strong>Worship Service:</strong> 11:00 AM</p>
+            <p class="text-teal-700 pt-4">Everyone is welcome — come as you are!</p>
+          </div>
+
+          <h2 class="text-3xl font-bold text-teal-800 mt-12 mb-6">Location</h2>
+          <p class="text-lg mb-4">1129 Parker Mountain Road<br>Parker's Cove, NS B0S 1A0<br>Just up the hill from the scenic Bay of Fundy.</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.123456789!2d-65.500!3d44.800!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDTCsDQ4JzAwLjAiTiA2NcKwMzAnMDAuMCJX!5e0!3m2!1sen!2sca!4v1690000000000" 
+                  width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-xl shadow-lg"></iframe>
+        </div>
+
+        <div>
+          <h2 class="text-3xl font-bold text-teal-800 mb-6">Get in Touch</h2>
+          <address class="not-italic space-y-6 text-lg">
+            <p><strong>Church Office:</strong> (902) 532-5706</p>
+            <p><strong>Email:</strong> <a href="mailto:admin@pcbc-tca.com" class="text-teal-700 hover:underline">admin@pcbc-tca.com</a></p>
+            <p><strong>Pastor Collin McMahon:</strong> <a href="mailto:pastorcollin.pcbc@gmail.com" class="text-teal-700 hover:underline">pastorcollin.pcbc@gmail.com</a></p>
+            <p><strong>Prayer Requests:</strong> <a href="mailto:prayer@pcbc-tca.com" class="text-teal-700 hover:underline">prayer@pcbc-tca.com</a></p>
+            <p class="pt-6"><strong>Follow us:</strong> <a href="https://www.facebook.com/parkerscovebaptistchurch" target="_blank" class="text-teal-700 hover:underline">Facebook</a></p>
+          </address>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-stone-900 text-stone-300 py-12 text-center">
+    <p class="text-lg">© 2026 Parker's Cove Baptist Church. All rights reserved.</p>
+    <p class="mt-4">1129 Parker Mountain Road, Parker's Cove, NS B0S 1A0 • Member of the Fellowship of Evangelical Baptist Churches</p>
+  </footer>
+
+</body>
+</html>
